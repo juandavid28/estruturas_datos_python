@@ -17,4 +17,4 @@
 |3|345|
 |4|99|
 
-- Los elementos de una lista empieza por la posicion 0 
+- Los elementos de una lista empieza por la posicion 0
