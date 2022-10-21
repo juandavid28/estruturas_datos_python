@@ -2,6 +2,9 @@
 
 #Metodos propios
 
+from operator import index
+
+
 lista = [45, 32, 3, 78]
 print("lista original: ", lista)
 # Funcion append: añande un elemento a la lista
@@ -18,7 +21,7 @@ print("Lista al reves: ", lista)
 lista_extend = [1,5,87,45]
 lista.extend(lista_extend)
 print("Lista de extend", lista)
-# FUncion count: cuenta el numero de veces que aparece el elemento indicado como parametro dentro de la lista
+# Funcion count: cuenta el numero de veces que aparece el elemento indicado como parametro dentro de la lista
 print("Numero de elementos 45: ", lista.count(45))
 # Funcion inset: añade el elemento pasado como parametro a la lista en la posicion indicada tambien por parametro
 lista.insert(4,111)
