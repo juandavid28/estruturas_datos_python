@@ -19,7 +19,7 @@ lista_extend = [1,5,87,45]
 lista.extend(lista_extend)
 print("Lista de extend", lista)
 # FUncion count: cuenta el numero de veces que aparece el elemento indicado como parametro dentro de la lista
-print("Numero de elementos 45: ", lista.count)
+print("Numero de elementos 45: ", lista.count(45))
 # Funcion inset: añade el elemento pasado como parametro a la lista en la posicion indicada tambien por parametro
 lista.insert(4,111)
 print("Lista despues de insert: ", lista)
